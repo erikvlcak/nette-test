@@ -28,16 +28,18 @@ final class Template_c2ac8eb2a2 extends Latte\Runtime\Template
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-
 	<title>';
-		if ($this->hasBlock('title')) /* line 7 */ {
+		if ($this->hasBlock('title')) /* line 6 */ {
 			$this->renderBlock('title', [], function ($s, $type) {
 				$ʟ_fi = new LR\FilterInfo($type);
 				return LR\Filters::convertTo($ʟ_fi, 'html', $this->filters->filterContent('stripHtml', $ʟ_fi, $s));
-			}) /* line 7 */;
+			}) /* line 6 */;
 			echo ' | ';
 		}
 		echo 'Nette Web</title>
+	<link rel="stylesheet" href="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($basePath)) /* line 7 */;
+		echo '/css/style.css">
 </head>
 
 <body>
