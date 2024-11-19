@@ -30,14 +30,21 @@ return array (
     'App\\UI\\Home\\HomePresenter' => 
     array (
       0 => 'C:\\web\\BE\\nette-test\\app\\UI\\Home\\HomePresenter.php',
-      1 => 1731967513,
+      1 => 1731971986,
+    ),
+    'App\\UI\\Post\\PostPresenter' => 
+    array (
+      0 => 'C:\\web\\BE\\nette-test\\app\\UI\\Post\\PostPresenter.php',
+      1 => 1731971985,
     ),
   ),
   1 => 
   array (
-    'null' => 2,
+    'null' => 3,
     'App\\UI\\Home\\HomeDefaultTemplate' => 3,
     'App\\UI\\Home\\HomeTemplate' => 3,
+    'App\\UI\\Post\\PostShowTemplate' => 3,
+    'App\\UI\\Post\\PostTemplate' => 3,
   ),
   2 => 
   array (

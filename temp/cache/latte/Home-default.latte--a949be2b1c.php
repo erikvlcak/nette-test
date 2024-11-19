@@ -5,7 +5,7 @@ declare(strict_types=1);
 use Latte\Runtime as LR;
 
 /** source: C:\web\BE\nette-test\app\UI\Home/default.latte */
-final class Template_c776621518 extends Latte\Runtime\Template
+final class Template_a949be2b1c extends Latte\Runtime\Template
 {
 	public const Source = 'C:\\web\\BE\\nette-test\\app\\UI\\Home/default.latte';
 
@@ -56,13 +56,14 @@ final class Template_c776621518 extends Latte\Runtime\Template
 		<div class="date">';
 			echo LR\Filters::escapeHtmlText(($this->filters->date)($post->created_at, 'F j, Y')) /* line 5 */;
 			echo '</div>
+
 		<h2><a href="';
-			echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link('Post:show', [$post->id])) /* line 6 */;
+			echo LR\Filters::escapeHtmlAttr($this->global->uiControl->link('Post:show', [$post->id])) /* line 7 */;
 			echo '">';
-			echo LR\Filters::escapeHtmlText($post->title) /* line 6 */;
+			echo LR\Filters::escapeHtmlText($post->title) /* line 7 */;
 			echo '</a></h2>
 		<div>';
-			echo LR\Filters::escapeHtmlText(($this->filters->truncate)($post->content, 256)) /* line 7 */;
+			echo LR\Filters::escapeHtmlText(($this->filters->truncate)($post->content, 256)) /* line 8 */;
 			echo '</div>
 	</div>
 ';

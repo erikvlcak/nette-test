@@ -30,7 +30,12 @@ return array (
     'App\\UI\\Home\\HomePresenter' => 
     array (
       0 => 'C:\\web\\BE\\nette-test\\app\\UI\\Home\\HomePresenter.php',
-      1 => 1731967513,
+      1 => 1731971986,
+    ),
+    'App\\UI\\Post\\PostPresenter' => 
+    array (
+      0 => 'C:\\web\\BE\\nette-test\\app\\UI\\Post\\PostPresenter.php',
+      1 => 1731971985,
     ),
   ),
   1 => 
